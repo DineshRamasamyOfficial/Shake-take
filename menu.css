@@ -1,0 +1,59 @@
+body{
+    background-image: url(background.jpeg);
+    background-size: cover;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-size: 22px;
+    font-weight: 1000;
+    background-color: rgb(241, 127, 89);
+    position: sticky;
+  }
+
+  li a {
+    float: left;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+#border{
+    height: 330px;
+    width: 92%;
+    margin-left: 54px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background: linear-gradient(to right, pink,chocolate,rgb(99, 97, 97),rgb(135, 247, 135),pink,white);
+    border-radius: 10px;
+}
+.box{
+    margin: 10px;
+    margin-top: 30px;
+}
+button{
+    font-size: 15px;
+    padding: 4px 10px;
+    position: relative;
+    left: 22%;
+    border-radius: 15px;
+    background-color: rgb(171, 180, 180);
+    font-weight: bold;
+}
+p{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(238, 239, 233);
+}

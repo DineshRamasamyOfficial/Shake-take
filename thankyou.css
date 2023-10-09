@@ -1,0 +1,24 @@
+.box{
+    font-size: 85px;
+    margin-left: 70px;
+    font-family: fantasy;
+}
+.box1{
+    font-size: 30px;
+    margin-left: 90px;
+    font-family: cursive;
+}
+img{
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 300px;
+    height: 700px;
+    width: 900px;
+}
+button{
+    font-size: 23px;
+    margin-left: 485px;
+}
+body{
+      background: linear-gradient(to right,rgb(29, 178, 189),pink);
+}

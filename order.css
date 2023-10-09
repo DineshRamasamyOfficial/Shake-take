@@ -1,0 +1,41 @@
+body{
+    background-image: url(background.jpeg);
+    background-size: cover;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-size: 22px;
+    font-weight: 1000;
+    background-color: rgb(109, 190, 231);
+    position: sticky;
+  }
+
+  li a {
+    float: left;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+#border{
+    height: 450px;
+    width: 70%;
+   background-color: rgb(244, 255, 255);
+   margin-top: 50px;
+   margin-left: 15%;
+   overflow: scroll;
+   background-color: lightblue;
+}
+h2{
+    text-align: center;
+}
+form{
+    margin-left: 100px;
+    font-size: 23px;
+}
